@@ -1,0 +1,10 @@
+.add-icon {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+.remove-icon, .add-green-icon {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}

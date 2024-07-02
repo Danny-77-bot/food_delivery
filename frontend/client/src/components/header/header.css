@@ -1,0 +1,46 @@
+.header {
+    height: 50vh; /* Adjusted height for better visual impact */
+    width: 100%; /* Full width for responsiveness */
+    margin: 0 auto;
+    background: url('/burger.avif') no-repeat center center/cover;
+    position: relative;
+  }
+  
+  .header-contents {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+    max-width: 600px; /* Adjusted max-width for better readability */
+    margin: 0 auto;
+  }
+  
+  .header-contents h2 {
+    font-weight: 600;
+    font-size: clamp(2rem, 5vw, 3.5rem); /* Responsive font size */
+    margin-bottom: 20px;
+  }
+  
+  .header-contents p {
+    font-size: clamp(1rem, 2vw, 1.5rem); /* Responsive font size */
+    line-height: 1.6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .header-contents button {
+    background-color: #4caf50; /* Green button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-contents button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
